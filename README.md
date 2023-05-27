@@ -17,7 +17,7 @@ Proyek ini memungkinkan pengguna untuk mengkonversi nilai angka menjadi huruf mu
 
 ## Pratinjau
 ![Preview Huruf Mutu](konversi-nilai.gif)
-_*background image : Pinterest_
+_*The background image is not owned by me but sourced from Pinterest._
 
 
 ## Cara Penggunaan
