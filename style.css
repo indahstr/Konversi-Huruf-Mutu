@@ -1,0 +1,72 @@
+/*general style*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Viga;
+}
+
+/*style untuk bagian body*/
+body{
+    background-image: url(pattern1.jpg);
+    background-size: cover;
+}
+
+/*style yang digunakan pada box konversi*/
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 40px;
+    color: rgb(84, 97, 110);
+}
+
+/*style judul*/
+.main h1{
+    text-align: center;
+    color: rgb(84, 97, 110);
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+/*style untuk tombol konversi*/
+.button{
+    width: 100px;
+    margin: 15px;
+    cursor: pointer;
+    background: rgb(144, 168, 211);
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    text-align: center;
+}
+
+/*style untuk textarea yang digunakan sebagai kolom (editable)*/
+.textarea-input{
+    width: 260px;
+    margin-left: 28px;
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 10px;
+    color: #606b8b;
+    border-radius: 25px;
+    background: white;
+    border: 2px solid #606b8b;
+}
+
+/*style untuk textarea yang digunakan sebagai kolom yang menampilkan hasil (disable)*/
+.textarea-output{
+    width: 260px;
+    margin-left: 28px;
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 10px;
+    color: #606b8b;
+    border-radius: 25px;
+    border: 2px solid #606b8b;
+    background: gainsboro;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konversi Nilai</title>
+    <link href="https://fonts.googleapis.com/css?family=Viga&display=swap" rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css?family=Viga&display=swap" rel="stylesheet">
+    
+    <!--Javascript-->
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="main">
+    <h1>Konversi Huruf Mutu</h1><br>
+    <table>
+    <form method="POST" name="cek">
+    
+    <!--untuk menginputkan nilai yang berupa angka-->
+    <tr> 
+        <td>
+            <label for="angka">Masukkan angka</label>
+        </td>
+        <td>
+            <input class="textarea-input" type="text" name="angka" id="angka">
+        </td>
+
+        <!--untuk tombol konversi-->
+        <td rowspan="2">
+            <input style="height: 120px;" class="button" type="button" value="Konversi" name="hasil" onclick=konversi()>
+        </td>
+    </tr>
+
+    <!--untuk menampilkan hasil konversi huruf mutu-->
+    <tr>
+        <td>
+            <label for="huruf">Huruf mutu</label>
+        </td>
+        <td>
+            <input class="textarea-output" type="text" name="huruf" id="huruf" readonly>
+        </td>
+    </tr>
+    </form>
+    </table>
+    </div>
+</body>
+
+</html>
